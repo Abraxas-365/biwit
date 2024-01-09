@@ -7,3 +7,6 @@
 [submodule "biwit-loader"]
 	path = biwit-loader
 	url = https://github.com/Abraxas-365/biwit-loader
+[submodule "biwit-core"]
+	path = biwit-core
+	url = https://github.com/Abraxas-365/biwit-core
