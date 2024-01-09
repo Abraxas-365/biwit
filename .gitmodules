@@ -1,0 +1,9 @@
+[submodule "biwit-tool"]
+	path = biwit-tool
+	url = https://github.com/Abraxas-365/biwit-tool
+[submodule "biwit-coree"]
+	path = biwit-coree
+	url = https://github.com/Abraxas-365/biwit-core
+[submodule "biwit-loader"]
+	path = biwit-loader
+	url = https://github.com/Abraxas-365/biwit-loader
