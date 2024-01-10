@@ -10,3 +10,9 @@
 [submodule "biwit-core"]
 	path = biwit-core
 	url = https://github.com/Abraxas-365/biwit-core
+[submodule "biwit-front"]
+	path = biwit-front
+	url = https://github.com/Abraxas-365/biwit-front
+[submodule "biwit-audio-upload"]
+	path = biwit-audio-upload
+	url = https://github.com/Abraxas-365/biwit-audio-upload
