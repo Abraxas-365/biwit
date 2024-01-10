@@ -1,4 +1,4 @@
-CREATE EXTENSION IF NOT EXISTS pgvector;
+CREATE EXTENSION IF NOT EXISTS vector;
 
 
 -- Create the user_config table
@@ -19,7 +19,8 @@ CREATE TABLE client (
 -- Create the data table
 CREATE TABLE data (
   id SERIAL PRIMARY KEY,
-  user_id INTEGER REFERENCES users(id),
+  chunk TEXT NOT NULL,
+  client_id INTEGER REFERENCES client(id),
   embedding vector(1536)
 );
 
