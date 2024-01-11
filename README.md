@@ -1,3 +1,3 @@
-# Bitwie
+# Biwit
 
 ![Architecture](arch.png)
